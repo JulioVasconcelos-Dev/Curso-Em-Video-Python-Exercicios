@@ -1,0 +1,7 @@
+x = input("Digite algo: ")
+b = type(x)
+print(f"{x} é da classe primitiva {b}")
+print("É alfabético", x.isalpha())
+print("", x.isalnum())
+print("", x.isdecimal())
+print("", x.islower())
